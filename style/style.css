@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#input_search {
+  width: 250px;
+  height: 30px;
+  border: 1px, solid, black;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  height: 50%;
+  background: #262726;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  margin: 0 20px;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+#main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0%;
+}
+
+#main .output {
+  width: 250px;
+  height: 320px;
+  margin: 19px 15px;
+  background: #d11664;
+}
+
+#main .img_list {
+  width: 100%;
+  height: 89%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main .output h5, #main h6 {
+  font: size 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+#main .output a {
+  text-decoration: none;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  border: 1rem, solid green;
+  margin-top: 3rem;
+}
+
+#main .div_title {
+  float: right;
+}
+
+#main .div_detail {
+  height: 400px;
+}
+
+#main .overview {
+  font-family: sans-serif;
+  width: 900px;
+  font-size: 1vw;
+  word-spacing: 5px;
+  word-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#main .img_detail {
+  height: 700px;
+  float: left;
+}
+
+#main .div_container {
+  width: 50%;
+  background-color: #647c7c;
+}
+
+#main .div_detail {
+  width: 100%;
+  padding-left: 1%;
+  margin-left: 1rem;
+}
+
+#main #iHeart {
+  color: gray;
+  font-size: 50px;
+}
+
+#main #iHeart.red {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
